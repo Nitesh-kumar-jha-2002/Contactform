@@ -16,7 +16,7 @@ function send_mail($recipient, $subject, $message)
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->Username   = 'niteshjha482002@gmail.com';                     //SMTP username                             //SMTP password
-    $mail->Password   = 'rewofamspicylruj';                               //SMTP password
+    $mail->Password   = 'hcfflhkonbxrmssa';                               //SMTP password
 
     $mail->IsHTML(true);                                  //Set email format to HTML
     $mail->AddAddress($recipient, 'Nitesh kumar jha');     //Add a recipient             //Name is optional
